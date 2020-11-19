@@ -1,0 +1,21 @@
+{
+  "name": "functorize",
+  "esy": {
+    "build": "dune build -p functorize",
+    "install": "esy-installer functorize.install"
+  },
+  "scripts": {
+    "run": "esy x functorize"
+  },
+  "dependencies": {
+    "@esy-ocaml/reason": "^3.6.2",
+    "@opam/cmdliner": "^1.0.4",
+    "@opam/dune": "*",
+    "@opam/ocaml-migrate-parsetree": "^1.8.0",
+    "@reason-native/console": "^0.1.0",
+    "ocaml": "~4.9.1"
+  },
+  "devDependencies": {
+    "@opam/ocaml-lsp-server": "*"
+  }
+}

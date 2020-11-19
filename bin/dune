@@ -1,0 +1,5 @@
+(executable
+ (name functorize)
+ (public_name functorize)
+ (libraries compiler-libs.common yojson cmdliner reason
+   ocaml-migrate-parsetree))
