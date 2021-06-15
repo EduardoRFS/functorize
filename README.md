@@ -1,6 +1,6 @@
 # Functorize
 
-Oh know, it's a README, what this do? Good question dear reader.
+Oh no, it's a README, what this do? Good question dear reader.
 
 The intent is to transform modules into functors, so this tool should generate a signature with all the external modules used, that should be usable(after some manual fixes) as a functor parameter.
 
